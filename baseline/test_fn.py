@@ -46,7 +46,7 @@ class Branin():
 
 class Ackley():
     def __init__(self, noise_var = 0, trace = False):
-        self.domain = np.array([-32.768, 32.768])
+        self.domain = np.array([-5, 10])
 
         self.params = {
             'a': 20,
